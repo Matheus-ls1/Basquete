@@ -1,0 +1,187 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.seca1{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 70px;
+    background-color: white;
+
+}
+
+.nav1{
+    display: flex;
+    width: 100%;
+    height: 120px;   
+    align-items: end;   
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+.diva1{
+    display: flex;
+    width: 150px;
+    width: 120px;
+    margin-left: 15%;
+    align-items: end;
+
+}
+.diva1b{
+    display: flex;
+    align-items: end;
+}
+.img_nomelog{
+    width: 200px;
+    height: 70px;
+    margin: auto 20px 20px 20px;
+}
+.img_logo{
+    width: 110px;
+    height: 110px;
+    align-items: end;
+}
+
+/* ----- Botoes NAV -------- */
+
+/* #ff723e */
+
+.btn {
+    --color: black;
+    --color2: rgb(255, 255, 255);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 2px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+    margin: auto auto  20px 20px ;
+   }
+
+   
+   .btn::after, .btn::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+   }
+   
+   .btn::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+   .btn:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+    color: white;
+   }
+   
+   .btn:hover {
+    color: var(--color2);
+   }
+   
+   .btn:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+   }
+
+   /* --- SECTION 2 --- */
+
+.seca2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 300px;
+   }
+.loc{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+p{
+    margin-left: 10px;
+}
+h1{
+    margin:200px auto 50px auto;
+    text-transform: uppercase;
+    text-align: center;
+    color:black;
+}
+.divinst{
+    display: flex;
+    height: 50px ;
+    align-items: center;
+}
+.divwp{
+    display: flex;
+    height: 50px ;
+    align-items: center;
+}
+.divemail{
+    display: flex;
+    height: 50px ;
+    align-items: center;
+}
+.divadd{
+    display: flex;
+    height: 70px ;
+    align-items: center;
+
+}
+.p1{
+    font-size: 10px;
+}
+.divhor{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 70%;
+    margin: 20px auto 0px auto;
+
+}
+.phor1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #1a1a1a;
+}
+.phor2{
+    text-align: center;
+    font-size: 14px;
+    color:#1a1a1a;
+}

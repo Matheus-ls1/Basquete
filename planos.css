@@ -1,0 +1,363 @@
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.seca1{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 70px;
+    background-color: white;
+
+}
+
+.nav1{
+    display: flex;
+    width: 100%;
+    height: 120px;   
+    align-items: end;   
+    flex-direction: row;
+    justify-content: end;
+
+}
+
+.diva1{
+    display: flex;
+    width: 150px;
+    width: 120px;
+    margin-left: 15%;
+    align-items: end;
+
+}
+.diva1b{
+    display: flex;
+    align-items: end;
+}
+.img_nomelog{
+    width: 200px;
+    height: 70px;
+    margin: auto 20px 20px 20px;
+}
+.img_logo{
+    width: 110px;
+    height: 110px;
+    align-items: end;
+}
+
+/* ----- Botoes NAV -------- */
+
+/* #ff723e */
+
+.btn {
+    --color: black;
+    --color2: rgb(255, 255, 255);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 2px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+    margin: auto auto  20px 20px ;
+   }
+
+   
+.btn::after, .btn::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+   }
+   
+.btn::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+.btn:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+.btn:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+    color: white;
+   }
+   
+.btn:hover {
+    color: var(--color2);
+   }
+   
+.btn:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+   }
+/* --------------------------------------------*/
+
+.sectop{
+    display: flex;
+    margin: 200px auto 0px auto;
+    width: 700px;
+    height: 60px;
+    background-color: #000000;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius:4px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left:  1px solid black;
+    box-shadow: 4px 4px 14px gray;
+    text-align: center;
+    
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin: auto;
+}
+
+.sectudo{
+    display: flex;
+    width: 700px;
+    height: 450px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 14px gray;
+    margin: 0px auto 400px auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+
+
+/* --------------------------------------------*/
+
+.men{
+    display: flex;
+    margin-top: 30px;
+}
+.men1{
+    display: flex;
+    width: 130px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 4px 4px 8px gray;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.men2{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    background-color:white ;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 4px 4px 8px gray;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/* --------------------------------------------*/
+
+.mena{
+    display: flex;
+
+}
+.mena1{
+    display: flex;
+    width: 130px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 17px;
+    box-shadow: 4px 4px 8px gray;
+    font-size: 17px;
+    font-weight: bolder;
+
+}
+.mena2{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    background-color:white ;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 17px;
+    box-shadow: 4px 4px 8px gray;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/* --------------------------------------------*/
+
+.menb{
+    display: flex;
+}
+.menb1{
+    display: flex;
+    width: 130px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 17px;
+    box-shadow: 4px 4px 8px gray;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.menb2{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    background-color:white ;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 17px;
+    box-shadow: 4px 4px 8px gray;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+/* --------------------------------------------*/
+
+.menc{
+    display: flex;
+}
+.menc1{
+    display: flex;
+    width: 130px;
+    height: 50px;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 17px;
+    box-shadow: 4px 4px 8px gray;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.menc2{
+    display: flex;
+    width: 400px;
+    height: 50px;
+    background-color:white ;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 17px;
+    box-shadow: 4px 4px 8px gray;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+
+
+/* ----------- botao 2 ------ */
+
+.btn1 {
+    display: flex;
+    --color: black;
+    --color2: rgb(255, 255, 255);
+    padding: 0.8em 1.75em;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 2px solid var(--color);
+    transition: .5s;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    font-weight: bolder;
+    font-size: 17px;
+    font-family: 'Roboto', 'Segoe UI', sans-serif;
+    text-transform: uppercase;
+    color: var(--color);
+    margin: 40px auto 0px auto ;
+    box-shadow: 4px 4px 8px gray;
+   }
+
+   
+.btn1::after, .btn1::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    transform: skew(90deg) translate(-50%, -50%);
+    position: absolute;
+    inset: 50%;
+    left: 25%;
+    z-index: -1;
+    transition: .5s ease-out;
+    background-color: var(--color);
+   }
+   
+.btn1::before {
+    top: -50%;
+    left: -25%;
+    transform: skew(90deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+.btn1:hover::before {
+    transform: skew(45deg) rotate(180deg) translate(-50%, -50%);
+   }
+   
+.btn1:hover::after {
+    transform: skew(45deg) translate(-50%, -50%);
+    color: white;
+   }
+   
+.btn1:hover {
+    color: var(--color2);
+   }
+   
+.btn1:active {
+    filter: brightness(.7);
+    transform: scale(.98);
+   }
